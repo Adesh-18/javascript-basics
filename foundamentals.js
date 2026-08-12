@@ -49,12 +49,84 @@
 // };
 // student.greet();
 
-let car = {
-  brand: "BMW",
-  model: "m4",
-  year: 2022,
-  start: function () {
-    console.log("The car has started.");
-  },
-};
-car.start();
+// let car = {
+//   brand: "BMW",
+//   model: "m4",
+//   year: 2022,
+//   start: function () {
+//     console.log("The car has started.");
+//   },
+// };
+// car.start();
+
+// Create variables for your name, age, and college
+
+// const name = "adesh";
+// const age = 21;
+// const college = "QIS";
+// console.log(`name: ${name}, Age: ${age}, college: ${college}`);
+
+// let a = 20;
+// let b = 20;
+// let sum = a + b;
+// console.log(`sum: ${sum}`);
+
+// let x = 20;
+// let y = 10;
+// console.log(`Before swap: x = ${x}, y = ${y}`);
+
+// let temp = x;
+// x = y;
+// y = temp;
+// console.log(`After Swap: x = ${x}, y = ${y}`);
+
+// // Store length and width, then calculate area
+// let length = 15;
+// let width = 10;
+// let area = length * width;
+// console.log(`Area: ${area}`);
+
+// // 5. Store price and quantity, then calculate total price
+
+// let price = 50;
+// let quantity = 3;
+// let totalPrice = price * quantity;
+// console.log(`Total Price: ${totalPrice}`);
+// const → value won't change
+// let → value may change
+
+const productName = "Laptop";
+const ProductPrice = 50000;
+let quantity = 2;
+const total = ProductPrice * quantity;
+console.log(`totalBill:${total}`);
+
+let length = 20;
+let width = 8;
+// calculate the area
+let area = length * width;
+// calculate the perimeter
+let perimeter = 2 * (length + width);
+console.log(`Area: ${area}`);
+console.log(`Perimeter: ${perimeter}`);
+
+const marks1 = 80;
+const marks2 = 75;
+const marks3 = 90;
+const average = (marks1 + marks2 + marks3) / 3;
+console.log(`Average Marks: ${average}`);
+
+// swap two variable using third variable
+let a = 100;
+let b = 200;
+console.log(`before swap: a ${a}, b${b}`);
+let temp = a;
+a = b;
+b = temp;
+console.log(`swap after a: ${a}, b: ${b}`);
+
+const name = "Adesh";
+const age = 21;
+const course = "cse";
+const college = "QIS";
+console.log(`name:${name},age:${age},course:${course},college:${college}`);
