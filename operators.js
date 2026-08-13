@@ -125,18 +125,61 @@
 //   console.log("Welcome back to your dashboard");
 // }
 
-let age = 22;
-let hasLicense = true;
-let hasCar = false;
-if (age > 18 && hasLicense) {
-  console.log("Can legally drive");
-}
-if (hascar) {
-  console.log("has a car");
-}
-if (age >= 18 && hasLicense && hasCar) {
-  console.log("Status: can drive and has a car.");
-}
-if ((age >= 18 && hasLicense) || hasCar) {
-  console.log("status: Can drive OR has a car.");
+// let age = 22;
+// let hasLicense = true;
+// let hasCar = false;
+// if (age > 18 && hasLicense) {
+//   console.log("Can legally drive");
+// }
+// if (hascar) {
+//   console.log("has a car");
+// }
+// if (age >= 18 && hasLicense && hasCar) {
+//   console.log("Status: can drive and has a car.");
+// }
+// if ((age >= 18 && hasLicense) || hasCar) {
+//   console.log("status: Can drive OR has a car.");
+// }
+
+// let age = 25;
+// let salary = 30000;
+// if ((age >= 21) & (salary >= 25000)) {
+//   console.log("age is greater than 21 and salary is greater than 25,000");
+// } else {
+//   console.log("not eligible");
+// }
+
+// let username = "Adesh";
+// let password = "12345";
+// if (username === "Adesh" && password === "12345") {
+//   console.log("login sucessfull");
+// } else {
+//   console.log("login failed");
+// }
+
+// let number = 27;
+// if (number % 2 == 0) {
+//   console.log("Even");
+// } else {
+//   console.log("odd");
+// }
+
+// let marks = 82;
+// if (marks >= 90) {
+//   console.log("A");
+// } else if (marks >= 80) {
+//   console.log("B");
+// } else if (marks >= 70) {
+//   console.log("C");
+// } else {
+//   console.log("Fail");
+// }
+
+let age = 20;
+let hasTicket = true;
+let isBanned = false;
+if (age >= 18 && hasTicket === true && isBanned === false) {
+  console.log("enter all are cleared");
+} else {
+  console.log("not entered");
 }
