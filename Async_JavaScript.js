@@ -13,3 +13,13 @@ const function getUsers(){
     const users = await response.json();
     console.log(users);
 }
+// This connects JavaScript to real applications.
+// React frontend
+//       ↓
+// fetch()
+//       ↓
+// API
+//       ↓
+// Node/Express backend
+//       ↓
+// Database

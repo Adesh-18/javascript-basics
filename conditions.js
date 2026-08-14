@@ -112,8 +112,3 @@
 // } else {
 //   console.log(`${c} is the largest`);
 // }
-marks = [95,85,75,65,50]{
-  if(marks > 95){
-    console.log("first grade")
-  }
-}

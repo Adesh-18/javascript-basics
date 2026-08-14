@@ -71,7 +71,7 @@
 // predict the o/p
 console.log(Number("10") + 5); //15
 console.log("10" + 5); //105
-console.log("10" - 5); //105
+console.log("10" - 5); //5
 console.log(Boolean("false")); //true
 console.log(Boolean(0)); // false
 console.log(parseInt("45.99")); //45

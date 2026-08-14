@@ -175,11 +175,11 @@
 //   console.log("Fail");
 // }
 
-let age = 20;
-let hasTicket = true;
-let isBanned = false;
-if (age >= 18 && hasTicket === true && isBanned === false) {
-  console.log("enter all are cleared");
-} else {
-  console.log("not entered");
-}
+// let age = 20;
+// let hasTicket = true;
+// let isBanned = false;
+// if (age >= 18 && hasTicket === true && isBanned === false) {
+//   console.log("enter all are cleared");
+// } else {
+//   console.log("not entered");
+// }
