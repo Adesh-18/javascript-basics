@@ -66,14 +66,16 @@
 // console.log(isEven(10));
 // console.log(isEven(7));
 
-
-// arrow function 
+// arrow function
 
 // const add = (a,b) =>{
 //   return a+b;
 // };
 // const add = (a,b)=> a+b;
 
-function square = (num) => {
-  return num*num;
-};
+// const square =  (num) => {
+//   return num*num;
+// };
+// arrow function remove function because it is shorter funcction
+
+// const square = (num) => num * num;
