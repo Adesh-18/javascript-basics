@@ -142,8 +142,17 @@
 
 // reduce() is used when you want to turn an array into one final value.
 
-const numbers = [5, 10, 15];
-const total = numbers.reduce(function (sum, number) {
-  return sum + number;
-}, 0);
-console.log(total);
+// const numbers = [5, 10, 15];
+// const total = numbers.reduce(function (sum, number) {
+//   return sum + number;
+// }, 0);
+// console.log(total);
+// Array methods you've learned
+// forEach() → do something with each item
+// map() → transform every item
+// filter() → select matching items
+// reduce() → combine into one value
+// push() / pop()
+// shift() / unshift()
+// includes() / indexOf()
+// splice()

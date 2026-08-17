@@ -146,7 +146,23 @@
 
 // Rest with Destructuring
 // You can also collect the remaining values:
-const numbers = [10, 20, 30, 40];
-const [first, ...remaining] = numbers;
-console.log(first);
-console.log(remaining);
+// const numbers = [10, 20, 30, 40];
+// const [first, ...remaining] = numbers;
+// console.log(first);
+// console.log(remaining);
+
+// function multiply = (...numbers) {
+//     return numbers
+// };
+
+// multiply(2,3,4)
+
+// Create these two functions:
+function calculate(a, b, callback) {
+  const result = a + b;
+  callback(result);
+}
+function showResult(result) {
+  console.log(`Result:${result}`);
+}
+calculate(10, 20, showResult);
