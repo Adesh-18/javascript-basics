@@ -158,11 +158,94 @@
 // multiply(2,3,4)
 
 // Create these two functions:
-function calculate(a, b, callback) {
-  const result = a + b;
-  callback(result);
-}
-function showResult(result) {
-  console.log(`Result:${result}`);
-}
-calculate(10, 20, showResult);
+// function calculate(a, b, callback) {
+//   const result = a + b;
+//   callback(result);
+// }
+// function showResult(result) {
+//   console.log(`Result:${result}`);
+// }
+// calculate(10, 20, showResult);
+
+// A callback is a function passed as an argument to another function.
+// function greet(name, callback) {
+//   console.log(`Hello ${name}`);
+//   callback();
+// }
+
+// function finished() {
+//   console.log("Finished!");
+// }
+
+// greet("Adesh", finished);
+
+// function add(a, b, callback) {
+//   const result = a + b;
+//   callback(result);
+// }
+// function showResult(result) {
+//   console.log(`Result:${result}`);
+// }
+// add(10, 20, showResult);
+
+// call back function syntax
+// function mainfunction(callback) {
+//   callback();
+// }
+// function myCallback() {
+//   console.log("Callback executed");
+// }
+// mainfunction(myCallback);
+// Callback = passing a function into another function.
+// function mainFunction(value, callback) {
+//   callback(value);
+// }
+// function myCallback(value) {
+//   console.log(value);
+// }
+// mainFunction(10, myCallback);
+
+// function execute(callback) {
+//   callback();
+// }
+// function greet() {
+//   console.log("Hello");
+// }
+// execute(greet);
+
+// function calculate(a, b, callback) {
+//   const result = a + b;
+//   callback(result);
+// }
+// function showResult(result) {
+//   console.log(result);
+// }
+// calculate(10, 20, showResult);
+
+// Because sometimes we want to tell function
+// o your work and then run this function
+// function login(username, callback) {
+//   console.log(`Logging in ${username}...`);
+//   callback();
+// }
+// function welcomeUser() {
+//   console.log("Welcome!");
+// }
+// login("Adesh", welcomeUser);
+
+// const numbers = [10, 20, 30];
+
+// numbers.forEach(function (number) {
+//   console.log(number);
+// });
+
+// const numbers = [10, 20, 30, 40];
+// numbers.forEach(function (numbers) {
+//   console.log(numbers);
+// });
+// map
+const numbers = [1, 2, 3];
+const doubled = numbers.map(function (number) {
+  return number * 2;
+});
+console.log(doubled);
