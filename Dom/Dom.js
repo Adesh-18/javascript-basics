@@ -244,21 +244,6 @@ form.addEventListener("submit",function(event){
 // } else {
 //   console.log(`Hello ${input.value}`);
 // }
-if (input.value === "") {
-  console.log(`Welcome ${input.value}!`);
-} else {
-  console.log(`Hello ${input.value}`);
-}
-const form = document.querySelector("#form");
-const input = document.querySelector("#name");
-form.addEventListener("submit", function (event) {
-  event.preventDefault();
-  if (input.value === "") {
-    console.log("Name is required");
-  } else {
-    console.log(`Welcome, ${input.value}!`);
-  }
-});
 // User clicks Submit
 //        ↓
 // preventDefault()
@@ -282,3 +267,18 @@ form.addEventListener("submit", function (event) {
 // preventDefault()
 // Basic form validation
 // forEach() with DOM elements
+if (input.value === "") {
+  console.log(`Welcome ${input.value}!`);
+} else {
+  console.log(`Hello ${input.value}`);
+}
+const form = document.querySelector("#form");
+const input = document.querySelector("#name");
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
+  if (input.value === "") {
+    console.log("Name is required");
+  } else {
+    console.log(`Welcome, ${input.value}!`);
+  }
+});
